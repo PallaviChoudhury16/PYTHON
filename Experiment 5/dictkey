@@ -1,0 +1,7 @@
+## write a program to create a dictionary and print the key which has maximum value.
+
+
+fruits= {'Lichi':100, 'orange':40, 'Apple' : 60}
+
+Keymax = max(zip(fruits.values(), fruits.keys()))[1]
+print(Keymax)

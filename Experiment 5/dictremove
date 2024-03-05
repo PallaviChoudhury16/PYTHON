@@ -1,0 +1,8 @@
+## write a program to enter a dictionary and remove the duplicate value inside the dictionary
+
+
+salary = {'mamata':10000,'megha':15000,'madhab':10000,'chiku':5000,'jini':3000,'suman':5000}
+print("salary of the Employees: \n",salary)
+temp = {value: key for key, value in salary.items()}
+result = {value: key for key, value in temp.items()}
+print("salary of the employee is : \n", result)

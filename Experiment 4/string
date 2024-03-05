@@ -1,0 +1,7 @@
+# Write to create two lists first list containg 5 integers and second list containg 5 string,print both the lists one element from each list combined ata
+
+list1 = [1, 2, 3, 4, 5]
+list2 = ["hi", "hii", "hello", "world", "ppml"]
+
+for i in range(len(list1)):
+    print(f"({list1[i]},{list2[i]})")

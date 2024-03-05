@@ -1,0 +1,7 @@
+# Write a python program to enter two different sets with string elements combine both the sets remove any duplicates if present and print the new set.
+
+
+set1 = set(input("Enter the elements of the first set : ").split())
+set2 = set(input("Enter the elements of the second set : ").split())
+new_set = set1.union(set2)
+print("New Set after removing duplicates:",new_set)

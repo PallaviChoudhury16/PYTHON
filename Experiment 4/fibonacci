@@ -1,0 +1,11 @@
+# write a program to create a function that ptints the first n term of the fibonacci series without using recursion
+
+def fibonacci_series(n):
+    list = [0, 1]
+    for i in range(2, n):
+        a = list[len(list)-1] + list[len(list)-2]
+        list.append(a)
+    print(list)
+
+n = int(input("Enter total number of fibonacci series you want: "))
+fibonacci_series(n)

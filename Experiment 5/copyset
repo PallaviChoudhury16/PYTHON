@@ -1,0 +1,5 @@
+## write a program to enter a set and copy the content of the set into a ne set one element at a time
+
+names={"mamali","micky","lina","bhakti"}
+new_set=names.copy()
+print(new_set)

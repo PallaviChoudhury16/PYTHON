@@ -1,0 +1,7 @@
+## write a program to input dictionaries and print the value by marging the two dictionaries
+
+
+dict1 = {'Pen': 5, 'Pencil': 4, 'Chocolate': 15}
+dict2 = {'Apple': 25, 'Ball': 10, 'Doll': 20}
+dict1.update(dict2)
+print(dict1)

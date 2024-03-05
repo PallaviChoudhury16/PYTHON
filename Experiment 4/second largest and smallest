@@ -1,0 +1,15 @@
+# Write a python program to print the second largest and second smallest element in a list of 10 integers without using sort Function
+
+list = [2, 5, 7, 19, 1, 8, 20, 19, 22, 0]
+
+for i in range(0,len(list)):
+    for j in range(i,len(list)):
+        if(list[i] > list[j]):
+            temp = list[i]
+            list[i] = list[j]
+            list[j] = temp
+        
+print(list)
+
+print(f"2nd smallest number: {list[1]}")
+print(f"2nd largest number: {list[len(list)-2]}")

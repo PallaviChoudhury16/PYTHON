@@ -1,0 +1,7 @@
+# Python code to find key with Maximum value in Dictionary
+
+
+chocolates= {'kitkat':20, 'munch':30, 'dairymilk' :50}
+
+Keymax = max(chocolates, key= lambda x: chocolates[x])
+print(Keymax)

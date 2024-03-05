@@ -1,0 +1,9 @@
+from random import randint
+
+def random_n_digit(n):
+    range_start=10**(n-1)
+    range_end=(10**n)-1
+    return randint(range_start,range_end)
+
+print('random number f digit 3 is',random_n_digit(3))
+print('random number of digit 5 is',random_n_digit(5))

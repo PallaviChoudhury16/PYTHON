@@ -1,0 +1,5 @@
+## write a program to enter a temperture in farenfeit and convert it into celcius
+
+temperture=float(input("Enter temperture in fahrenheit: "))
+celsius=(temperture-32)*5/9
+print("temperture in celsius",celsius)
